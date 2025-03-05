@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f1f3f5;
+    overflow: hidden;
+    /* cursor: none; */
+    width: 100vw;
+    height: 100vh;
+    color: #2f3e46;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    overflow: hidden;
+    opacity: 1;
+  }
+
+  .navbar > div {
+    padding: 0 30px;
+    font-size: 20px;
+  }
+  .navbar .menu {
+    /* margin-right: auto; */
+  }
+  .navbar .lang {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
